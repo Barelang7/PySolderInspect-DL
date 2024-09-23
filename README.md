@@ -1,9 +1,9 @@
 # PCB_Inspection_Using_Basler_Camera
 ## Defected PCB
-![View Dekstop Tablet PC](Image\PCB_Defect.png)
+![PCB defect](Image\PCB_Defect.png)
 If there is a defect on the PCB, a red indicator will appear and there will be a notification regarding the defects on the PCB
 ## Zero Defect PCB
-![View Dekstop Tablet PC](Image/Zero_Defect_PCB.png)
+![Zero defect PCB](Image/Zero_Defect_PCB.png)
 If there are no defects on the PCB, a red indicator will appear
 
 # How to instalation
