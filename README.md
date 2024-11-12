@@ -1,30 +1,28 @@
-# PCB_Inspection_Using_Basler_Camera
-## Defected PCB
-![PCB defect](Image\PCB_Defect.png)
-If there is a defect on the PCB, a red indicator will appear and there will be a notification regarding the defects on the PCB
-## Zero Defect PCB
-![Zero defect PCB](Image/Zero_Defect_PCB.png)
-If there are no defects on the PCB, a red indicator will appear
+# PySolderInspect DL
+## Solder Defect Detection Application on Printed Circuit Board (PCB) Based on Deep Learning
 
-# How to instalation
-#### Note: PCB Inspection software runs on windows 10 and uses python 3.9
+PySolderInspect DL is a Deep Learning-based application designed to automatically detect solder defects on Printed Circuit Boards (PCBs). The app uses a special camera and supporting hardware to capture images of the PCB, then analyzes the solder results to detect any damage or defects, such as opens, short circuits, or excessive solder thickness. With a user-friendly interface, users can perform inspections efficiently, reducing time and potential errors in manual checking. This application is expected to help improve the quality of electronics production by maintaining high visual inspection standards.
+
+![PCB defect](Image/PCB_Defect.png)
+
+A red indicator and notification will appear if there is a defect on the PCB.
+![Zero defect PCB](Image/Zero_Defect_PCB.png)
+
+# How to Install
+#### Note: PCB Inspection software runs on Windows 10 and uses Python 3.9
 Install Basler camera [software](https://www2.baslerweb.com/en/downloads/software-downloads/software-pylon-8-0-0-windows/) suit windows
 
 Install [Edge TPU runtime](https://coral.ai/docs/accelerator/get-started/)
 
- Install the PyCoral library :
- ```
- python3 -m pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0
+Install the PyCoral
+```
+python3 -m pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0
+```
+Install the PyPylon, Tkinter, and OpenCV
+```
+pip install pypylon tk opencv-python
+```
 
-```
-Intall the pypylon library :
-```
-pip install pypylon
-```
-Install the tk library :
-```
-pip install tk
-```
 Install the opencv library :
 ```
 pip install opencv-python
