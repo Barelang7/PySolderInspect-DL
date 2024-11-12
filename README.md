@@ -10,7 +10,11 @@ PySolderInspect DL is a Deep Learning-based application designed to automaticall
 ![Zero defect PCB](images/Zero_Defect_PCB.png)
 
 # How to Install
-#### Note: PCB Inspection software runs on Windows 10 and uses Python 3.9
+
+## Full documentation can be read from docs folder
+
+**Note: PCB Inspection software runs on Windows 10 and uses Python 3.9**
+
 Install Basler camera [software](https://www2.baslerweb.com/en/downloads/software-downloads/software-pylon-8-0-0-windows/) suit windows
 
 Install [Edge TPU runtime](https://coral.ai/docs/accelerator/get-started/)
@@ -29,4 +33,3 @@ Install the opencv library :
 pip install opencv-python
 ```
 
-Full documentation can be read from docs folder
