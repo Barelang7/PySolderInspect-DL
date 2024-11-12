@@ -1,3 +1,0 @@
-0 Opens
-1 Short circuit
-2 Toomuch

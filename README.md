@@ -4,10 +4,10 @@
 PySolderInspect DL is a Deep Learning-based application designed to automatically detect solder defects on Printed Circuit Boards (PCBs). The app uses a special camera and supporting hardware to capture images of the PCB, then analyzes the solder results to detect any damage or defects, such as opens, short circuits, or excessive solder thickness. With a user-friendly interface, users can perform inspections efficiently, reducing time and potential errors in manual checking. This application is expected to help improve the quality of electronics production by maintaining high visual inspection standards.
 
 ## Example Detection on Reject Sample
-![PCB defect](Image/PCB_Defect.png)
+![PCB defect](images/PCB_Defect.png)
 
 ## Example Detection on Good Sample
-![Zero defect PCB](Image/Zero_Defect_PCB.png)
+![Zero defect PCB](images/Zero_Defect_PCB.png)
 
 # How to Install
 #### Note: PCB Inspection software runs on Windows 10 and uses Python 3.9
@@ -28,4 +28,5 @@ Install the opencv library :
 ```
 pip install opencv-python
 ```
-clone the github repository and run PCB Inspection.exe
+
+Full documentation can be read from docs folder
